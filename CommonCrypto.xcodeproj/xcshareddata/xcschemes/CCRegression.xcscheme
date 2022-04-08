@@ -21,11 +21,11 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "48AC91F51581554800BA9060"
@@ -63,16 +63,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48AC91F51581554800BA9060"
-            BuildableName = "CCRegression"
-            BlueprintName = "CCRegression"
-            ReferencedContainer = "container:CommonCrypto.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
             argument = "CommonBigNum"
@@ -86,16 +76,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48AC91F51581554800BA9060"
-            BuildableName = "CCRegression"
-            BlueprintName = "CCRegression"
+            BlueprintIdentifier = "48BEE6B41580085A00A6A1E7"
+            BuildableName = "libcommonCrypto.dylib"
+            BlueprintName = "CommonCrypto"
             ReferencedContainer = "container:CommonCrypto.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
